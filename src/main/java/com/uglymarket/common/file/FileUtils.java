@@ -16,7 +16,7 @@ import java.util.UUID;
 public class FileUtils {
 
     //파일이 저장될 디스크 경로
-    private final String uploadPath = Paths.get("D:", "temp").toString();
+    private final String uploadPath = "/usr/service/uglymarket/files/";
 
     /**
      * 다중 파일 업로드
